@@ -1,0 +1,146 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+echo -e "\e[31m 
+########################################## \e[m"
+
+
+echo -e "\e[033m
+# PROJECT:- PACKAGES REQUIRED FOR TERMUX # \e[m"
+
+
+echo -e "\e[33m
+# AUTHOR :-  ROHIT RAJ                   # \e[m"
+
+echo -e "\e[31m
+########################################## \e[m"
+echo
+
+echo -e "\e[35m Welcome To My Script ........ \e[m"
+
+echo -e "\e[32m
+# Termux is Updating...... \e[m"
+apt-get update -y
+
+echo -e "\e[32m
+# Termux is Upgradeing...... \e[m"
+apt-get upgrade -y
+
+echo -e "\e[32m
+# Giving storage permission to termux.. \e[m"
+
+
+echo -e "\e[31m
+*# NOTE :- if it ask to you for (y/n) then press y and hit enter.. \e[m"
+
+termux-setup-storage 
+
+echo -e "\e[34m
+# Installing sl to check termux is properly installed or not.. \e[m"
+
+pkg install sl -y
+
+echo -e "\e[36m
+# running sl \e[m"
+
+echo -e "\e[31m
+if train runs on your termux then your termux is properly installed.. \e[m"
+
+# Sleep for 5 seconds
+sleep 5
+
+sl
+
+echo -e "\e[32m
+#########################################
+       'We are Ethical Hacker'
+       'Not a Bad Hacker' 
+ ########################################      \e[m"
+ 
+ 
+ echo -e "\e[32m
+ # Installing bash \e[m"
+ apt-get install bash -y
+ 
+ 
+echo -e "\e[32m
+ # Installing git for cloning git packages \e[m"
+ apt-get install git -y
+ 
+echo -e "\e[32m
+ # Installing python \e[m"
+ apt-get install python -y
+ 
+ 
+ 
+ echo -e "\e[32m
+ # Installing python2 \e[m"
+ apt-get install python2 -y
+ 
+ 
+ echo -e "\e[32m
+ # Installing cowsay to modify termux \e[m"
+ apt-get install cowsay -y
+ 
+ 
+ echo -e "\e[32m
+ # Installing figlet to modify termux \e[m"
+ apt-get install figlet -y
+ 
+ 
+ echo -e "\e[32m
+ # Installing Toilet to modify termux \e[m"
+ apt-get install toilet -y
+ 
+ echo -e "\e[32m
+ # Installing clang  \e[m"
+ apt-get install clang -y
+ 
+ 
+ echo -e "\e[32m
+ # Installing ruby \e[m"
+ apt-get install ruby -y
+ 
+ 
+ 
+ 
+ 
+ echo -e "\e[32m
+ # Installing screefetch \e[m"
+ pkg install screenfetch
+ 
+ 
+ echo -e "\e[32m
+ # Installing php  \e[m"
+ apt-get install php -y
+ 
+ echo -e "\e[32m
+ # Installing fish \e[m"
+ apt-get install fish -y
+
+echo -e "\e[32m
+ # Installing cmatrix \e[m"
+ apt-get install cmatrix -y
+ 
+ echo -e "\e[32m
+ # Installing wget \e[m"
+ apt-get install wget -y
+ 
+ echo -e "\e[32m
+ # Installing curl \e[m"
+ apt-get install curl -y
+ 
+ pkg uninstall libcaca -y
+ sleep 2
+ 
+ pkg uninstall fortune -y
+ 
+ echo -e "\e[36m
+ Thanks for Using my Scripts..
+ This script is written by ROHIT RAJ\e[m"
+ 
+ echo -e "\e[35m  
+ Please subscribe our channel \e[m"
+ echo -e "\e[34m
+ Done4us \e[m"
+ 
+$date
